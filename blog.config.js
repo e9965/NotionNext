@@ -9,7 +9,7 @@ const BLOG = {
   NOTION_ACCESS_TOKEN: process.env.NOTION_ACCESS_TOKEN || '', // Useful if you prefer not to make your database public
   DEBUG: process.env.NEXT_PUBLIC_DEBUG || false, // 是否显示调试按钮
 
-  THEME: process.env.NEXT_PUBLIC_THEME || 'hexo', // 主题， 支持 ['next','hexo',"fukasawa','medium']
+  THEME: process.env.NEXT_PUBLIC_THEME || 'fukasawa', // 主题， 支持 ['next','hexo',"fukasawa','medium']
   THEME_SWITCH: process.env.NEXT_PUBLIC_THEME_SWITCH || false, // 是否显示切换主题按钮
   LANG: 'zh-HK', // e.g 'zh-CN','en-US'  see /lib/lang.js for more.
   HOME_BANNER_IMAGE: './bg_image.jpg', // 首页背景大图，默认文件：/public/bg_image.jpg 。会被Notion中的封面图覆盖。
@@ -26,7 +26,7 @@ const BLOG = {
   POST_LIST_PREVIEW: process.env.NEXT_PUBLIC_POST_PREVIEW || 'false', //  是否在列表加载文章预览
   POST_PREVIEW_LINES: 12, // 预览博客行数
   POST_RECOMMEND_COUNT: 6, // 推荐文章数量
-  POSTS_PER_PAGE: 6, // post counts per page
+  POSTS_PER_PAGE: 12, // post counts per page
   POSTS_SORT_BY: 'notion', // 排序方式 'date'按时间,'notion'由notion控制
 
   PREVIEW_CATEGORY_COUNT: 16, // 首页最多展示的分类数量，0为不限制
