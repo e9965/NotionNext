@@ -1,8 +1,7 @@
 const CONFIG_HEXO = {
   HOME_BANNER_ENABLE: true,
   HOME_BANNER_GREETINGS: ['Hi，我是一個内卷哥', 'Hi，我是一个死肥宅', 'Hi，我是一个淦飯人', 'DSE加油🎉'], // 首页大图标语文字
-  HOME_BANNER_IMAGE: './bg_image.jpg',
-  
+
   // 菜单配置
   MENU_CATEGORY: true, // 显示分类
   MENU_TAG: true, // 显示标签
